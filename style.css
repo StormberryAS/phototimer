@@ -281,6 +281,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
 }
 
+/* ── DATE FIELD ─────────────────────────────────────────────── */
+.date-field {
+  margin-top: var(--sp-lg);
+  padding-top: var(--sp-lg);
+  border-top: 1px solid var(--border);
+}
+
 /* ── SEARCH & DROPDOWN ──────────────────────────────────────── */
 .search-wrapper { position: relative; }
 
